@@ -1431,6 +1431,13 @@ ts-node@^8.6.2:
     source-map-support "^0.5.6"
     yn "3.1.1"
 
+ts-probe@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/ts-probe/-/ts-probe-0.1.1.tgz#8e8086a25ccb25ad1840c3f7ea4ecf3ed6e0ff22"
+  integrity sha512-KxlqdGryvCBixcuLrcZwbVoIzHkBTAmImgNQ0u4YXgftHLm4hkjLyPHa6FlKnlX4j84D9/1KUrfG/BD9CJ2hrg==
+  dependencies:
+    typescript "^3.8.2"
+
 tsconfig-paths@^3.9.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.9.0.tgz#098547a6c4448807e8fcb8eae081064ee9a3c90b"
@@ -1469,6 +1476,11 @@ typescript@^3.7.5:
   version "3.7.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
   integrity sha512-/P5lkRXkWHNAbcJIiHPfRoKqyd7bsyCma1hZNUGfn20qm64T6ZBlrzprymeu918H+mB/0rIg2gGK/BXkhhYgBw==
+
+typescript@^3.8.2:
+  version "3.8.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.2.tgz#91d6868aaead7da74f493c553aeff76c0c0b1d5a"
+  integrity sha512-EgOVgL/4xfVrCMbhYKUQTdF37SQn4Iw73H5BgCrF1Abdun7Kwy/QZsE/ssAy0y4LxBbvua3PIbFsbRczWWnDdQ==
 
 undefsafe@^2.0.2:
   version "2.0.2"
