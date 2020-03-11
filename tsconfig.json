@@ -1,18 +1,17 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "lib": ["es2020"],
     "module": "commonjs",
-    "outDir": "./dist",
-    "rootDir": "src",
+    "outDir": "./lib",
+    "rootDir": ".",
     "strict": true,
-    "baseUrl": "./",
-    "paths": {
-      "@/*": [
-        "src/*"
-      ]
-    },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"]
+  "include": [
+    "src/**/*.ts",
+    "tests/**/*.ts",
+    "typings/**/*.ts"
+  ]
 }

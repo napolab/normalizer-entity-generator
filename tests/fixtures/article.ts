@@ -7,11 +7,4 @@ export interface Article extends BaseModel {
   title: string;
   comments: Comment[];
   createdAt: Date | null;
-  literal: {
-    str: string;
-    n: number;
-    s: symbol;
-    u: undefined;
-    null: null;
-  };
 }

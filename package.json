@@ -1,31 +1,46 @@
 {
   "name": "normalizer-entity-generator",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "type": "lib/index.d.ts",
   "dependencies": {
-    "@types/node": "^13.7.1",
+    "change-case": "^4.1.1",
     "normalizr": "^3.5.0",
     "pluralize": "^8.0.0",
     "ts-probe": "^0.1.1",
-    "tsconfig-paths": "^3.9.0",
-    "typescript": "^3.7.5"
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
+    "@types/change-case": "^2.3.1",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.7.1",
     "@types/pluralize": "^0.0.29",
     "@typescript-eslint/eslint-plugin": "^2.19.2",
     "@typescript-eslint/parser": "^2.19.2",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.1.0",
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",
+    "ts-jest": "^25.2.1",
     "ts-node": "^8.6.2"
   },
   "scripts": {
     "build": "tsc",
     "start": "node -r tsconfig-paths/register dist",
     "dev": "nodemon",
-    "lint": "eslint --ext .ts src"
-  }
+    "lint": "eslint --ext .ts src",
+    "test": "jest"
+  },
+  "keywords": [
+    "TypeScript",
+    "Compiler API"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "author": "naporin0624 <naporin0624@gmail.com>",
+  "license": "MIT",
+  "description": ""
 }
