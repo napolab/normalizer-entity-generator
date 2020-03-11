@@ -78,16 +78,6 @@ function createEntityAst(path: string): CreateAstReturnType {
       if (!kind) return;
 
       return [s.name, checker.typeToString(baseType), ts.SyntaxKind[kind]];
-
-      // if (ts.TypeFlags[type.flags] !== "Object") {
-      //   if (type.isUnion()) return [s.name, type.types.map(t => checker.typeToString(t))];
-      //   return [s.name, ts.TypeFlags[type.flags]];
-      // } else if (type.symbol.escapedName === "Array") {
-      //   const ref = type as ts.TypeReference;
-      //   return [s.name, checker.typeToString(checker.getTypeArguments(ref)[0])];
-      // } else {
-      //   return [s.name, checker.typeToString(type)];
-      // }
     })
   );
 
