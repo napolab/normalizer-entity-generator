@@ -96,7 +96,7 @@ function createEntityAst(path: string): CreateAstReturnType {
 
 export function generator() {
   // const config: Config = readFileSync()
-  const modelFiles = readModelFiles({ ignoreFiles: ["base.ts"] });
+  const modelFiles = readModelFiles({ modelsPath: "tests/fixtures", ignoreFiles: ["base.ts"] });
   modelFiles
     .map(createEntityAst)
     .filter((entityArgs): entityArgs is CreatedAstReturnType => !!entityArgs[1])
